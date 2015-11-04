@@ -13,6 +13,14 @@
 		0538D4FE1BE058A500FD40E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0538D4FD1BE058A500FD40E5 /* Assets.xcassets */; };
 		0538D5011BE058A500FD40E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0538D4FF1BE058A500FD40E5 /* LaunchScreen.storyboard */; };
 		0538D50C1BE058A500FD40E5 /* TetragonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538D50B1BE058A500FD40E5 /* TetragonUITests.swift */; };
+		0538D52F1BE058F100FD40E5 /* Tetragon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538D5271BE058F100FD40E5 /* Tetragon.swift */; };
+		0538D5301BE058F100FD40E5 /* TetragonContainsPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538D5281BE058F100FD40E5 /* TetragonContainsPoint.swift */; };
+		0538D5311BE058F100FD40E5 /* TetragonCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538D5291BE058F100FD40E5 /* TetragonCorner.swift */; };
+		0538D5321BE058F100FD40E5 /* TetragonGeneratorEquatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538D52A1BE058F100FD40E5 /* TetragonGeneratorEquatable.swift */; };
+		0538D5331BE058F100FD40E5 /* TetragonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538D52B1BE058F100FD40E5 /* TetragonType.swift */; };
+		0538D5341BE058F100FD40E5 /* TetragonTypeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538D52C1BE058F100FD40E5 /* TetragonTypeEnum.swift */; };
+		0538D5351BE058F100FD40E5 /* TetragonVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538D52D1BE058F100FD40E5 /* TetragonVector.swift */; };
+		0538D5361BE058F100FD40E5 /* TetragonVectorCalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538D52E1BE058F100FD40E5 /* TetragonVectorCalc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,14 @@
 		0538D5071BE058A500FD40E5 /* TetragonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TetragonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0538D50B1BE058A500FD40E5 /* TetragonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetragonUITests.swift; sourceTree = "<group>"; };
 		0538D50D1BE058A500FD40E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0538D5271BE058F100FD40E5 /* Tetragon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tetragon.swift; path = Tetragon/Tetragon.swift; sourceTree = "<group>"; };
+		0538D5281BE058F100FD40E5 /* TetragonContainsPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TetragonContainsPoint.swift; path = Tetragon/TetragonContainsPoint.swift; sourceTree = "<group>"; };
+		0538D5291BE058F100FD40E5 /* TetragonCorner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TetragonCorner.swift; path = Tetragon/TetragonCorner.swift; sourceTree = "<group>"; };
+		0538D52A1BE058F100FD40E5 /* TetragonGeneratorEquatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TetragonGeneratorEquatable.swift; path = Tetragon/TetragonGeneratorEquatable.swift; sourceTree = "<group>"; };
+		0538D52B1BE058F100FD40E5 /* TetragonType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TetragonType.swift; path = Tetragon/TetragonType.swift; sourceTree = "<group>"; };
+		0538D52C1BE058F100FD40E5 /* TetragonTypeEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TetragonTypeEnum.swift; path = Tetragon/TetragonTypeEnum.swift; sourceTree = "<group>"; };
+		0538D52D1BE058F100FD40E5 /* TetragonVector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TetragonVector.swift; path = Tetragon/TetragonVector.swift; sourceTree = "<group>"; };
+		0538D52E1BE058F100FD40E5 /* TetragonVectorCalc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TetragonVectorCalc.swift; path = Tetragon/TetragonVectorCalc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +93,7 @@
 		0538D4F51BE058A500FD40E5 /* Tetragon */ = {
 			isa = PBXGroup;
 			children = (
+				0538D5261BE058C500FD40E5 /* Tetragon */,
 				0538D4F61BE058A500FD40E5 /* AppDelegate.swift */,
 				0538D4F81BE058A500FD40E5 /* ViewController.swift */,
 				0538D4FA1BE058A500FD40E5 /* Main.storyboard */,
@@ -94,6 +111,21 @@
 				0538D50D1BE058A500FD40E5 /* Info.plist */,
 			);
 			path = TetragonUITests;
+			sourceTree = "<group>";
+		};
+		0538D5261BE058C500FD40E5 /* Tetragon */ = {
+			isa = PBXGroup;
+			children = (
+				0538D5271BE058F100FD40E5 /* Tetragon.swift */,
+				0538D5281BE058F100FD40E5 /* TetragonContainsPoint.swift */,
+				0538D5291BE058F100FD40E5 /* TetragonCorner.swift */,
+				0538D52A1BE058F100FD40E5 /* TetragonGeneratorEquatable.swift */,
+				0538D52B1BE058F100FD40E5 /* TetragonType.swift */,
+				0538D52C1BE058F100FD40E5 /* TetragonTypeEnum.swift */,
+				0538D52D1BE058F100FD40E5 /* TetragonVector.swift */,
+				0538D52E1BE058F100FD40E5 /* TetragonVectorCalc.swift */,
+			);
+			name = Tetragon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,8 +229,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0538D5331BE058F100FD40E5 /* TetragonType.swift in Sources */,
+				0538D5361BE058F100FD40E5 /* TetragonVectorCalc.swift in Sources */,
+				0538D52F1BE058F100FD40E5 /* Tetragon.swift in Sources */,
+				0538D5351BE058F100FD40E5 /* TetragonVector.swift in Sources */,
 				0538D4F91BE058A500FD40E5 /* ViewController.swift in Sources */,
+				0538D5311BE058F100FD40E5 /* TetragonCorner.swift in Sources */,
+				0538D5341BE058F100FD40E5 /* TetragonTypeEnum.swift in Sources */,
 				0538D4F71BE058A500FD40E5 /* AppDelegate.swift in Sources */,
+				0538D5321BE058F100FD40E5 /* TetragonGeneratorEquatable.swift in Sources */,
+				0538D5301BE058F100FD40E5 /* TetragonContainsPoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
